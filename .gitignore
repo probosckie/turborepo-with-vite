@@ -1,0 +1,40 @@
+# === Node Modules ===
+node_modules/
+**/node_modules/
+
+# === Build Output ===
+dist/
+build/
+out/
+*.log
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === Env Files ===
+.env
+.env.local
+.env.*.local
+
+# === Vite Cache ===
+.vite/
+**/.vite/
+
+# === Turborepo Cache ===
+turbo/
+.cache/
+.next/
+
+# === VSCode ===
+.vscode/
+
+# === OS / Misc ===
+.DS_Store
+Thumbs.db
+*.swp
+
+# === lockfiles ===
+pnpm-lock.yaml
+yarn.lock
+
+# (Keep package-lock.json if you're using npm)
